@@ -8,7 +8,10 @@
 
 /*--------------------------------------____HEADER____--------------------------------------------------*/
 
-
+a{
+    color: white;
+    text-decoration: none;
+}
 header{
     background-image: url(ava.png);
     background-repeat: no-repeat;
@@ -18,40 +21,179 @@ header{
     margin: 0px;
     padding: 0px;
 }
+header > a:nth-of-type(1){
+    position: fixed;
+    z-index: 9999;
+    top: 50%;
+    left: 20px;
+    background-image: url(iconNetworks/instagram-1icon.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height:50px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+header > a:nth-of-type(2){
+    z-index: 9999;
+    position: fixed;
+    top: 60%;
+    left: 20px;
+    background-image: url(iconNetworks/my-life-white-facebook-and-google-logo-28.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height:50px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+header > a:nth-of-type(3){
+    z-index: 9999;
+    position: fixed;
+    top: 70%;
+    left: 20px;
+    background-image: url(iconNetworks/vk.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 50px;
+    height:50px;
+    border: 2px solid white;
+    border-radius: 40px;
+}
+header > a:nth-of-type(4){
+    position: fixed;
+    top: 85%;
+    right: 40px;
+    z-index: 9999;
+    background: #FAF433;
+    background-image: url(iconNetworks/call.svg);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height:80px;
+    border-radius: 70px;
+    box-shadow: 0px 0px 40px #FAF433;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+}
+header > a:nth-of-type(4):hover{
+    transform: scale(1.2);
+}
+
+
+header > a:nth-of-type(1):hover{
+    background-image: url(iconNetworks/yellow/instagram-1icon_yellow.svg);
+    border: 2px solid #FAF433;
+}
+header > a:nth-of-type(2):hover{
+    background-image: url(iconNetworks/yellow/facebook_yellow.svg);
+    border: 2px solid #FAF433;
+}
+header > a:nth-of-type(3):hover{
+    background-image: url(iconNetworks/yellow/vk_yellow.svg);
+    border: 2px solid #FAF433;
+}
+.a{
+position: fixed;
+z-index: 9999;
+right: 78px;  
+top: 350px;
+width: 15px;
+height: 15px;
+background-image: url(anchor/anchorSmall.svg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+background-position: center;
+}
+.a:nth-of-type(2){
+    top:368px;
+}
+.a:nth-of-type(3){
+    top:386px;
+}
+.a:nth-of-type(4){
+    top:404px;
+}
+.a:nth-of-type(5){
+    top:422px;
+}
 /*----------------------------------------____MENU____----------------------------------------------*/
 nav{
     position: relative;
     width: 100%;
-    height: 100px;
-    background: black;
+    height: 80px;
+    background: rgba(0,0,0,0.8);
+    z-index: 9999;
 }
-nav > a > img{
+nav > a{
 position: absolute;
-width: 10%;
+width: 100px;
 }
-nav > a:nth-of-type(1) > img{
-    top: 20%;
-    width: 17%;
-    left: 3%;
+nav > a:nth-of-type(1){
+    position: absolute;
+    top: 25%;
+    width: 160px;
+    height: 40px;
+    left: 8%;
+    background-image: url(menu/stronaGlowna.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-nav > a:nth-of-type(2) > img{
+nav > a:nth-of-type(2){
     left: 25%;
-    top: 20%;
+    top: 25%;
+       height: 40px;
+    background-image: url(menu/kontakt.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
-nav > a:nth-of-type(3) > img{
+nav > a:nth-of-type(3){
     top: 0px;
-    left: 40%;
-    width: 20%;
+    left: 43%;
+    width: 200px;
+       height: 80px;
+    background-image: url(menu/logo.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-nav > a:nth-of-type(4) > img{
-    left: 65%;
+nav > a:nth-of-type(4){
+    left: 67%;
     top: 15%;
+       height: 50px;
+    background-image: url(menu/onas.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-nav > a:nth-of-type(5) > img{
-    left: 80%;
+nav > a:nth-of-type(5){
+    left: 82%;
     top:25%;
+       height: 40px;
+    background-image: url(menu/zamowic.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+nav > a:nth-of-type(1):hover{
+        background-image: url(menu/yellow/stronaGlowna_yellow.svg);
+}
+nav > a:nth-of-type(2):hover{
+       background-image: url(menu/yellow/kontakt_yellow.svg);
+}
+
+nav > a:nth-of-type(3):hover{
+       background-image: url(menu/yellow/logo_yellow.svg);
+}
+nav > a:nth-of-type(4):hover{
+       background-image: url(menu/yellow/onas_yellow.svg);
+}
+nav > a:nth-of-type(5):hover{
+       background-image: url(menu/yellow/zamowic_yellow.svg);
+}
+
 /*----------------------------------------____FIRST SECTION____----------------------------------------------*/
 section{
     width: 100%;
@@ -63,14 +205,14 @@ section{
 }
 section > img{
     position: absolute;
-    top: 20%;
+    top: 22%;
     right: 9%;
 }
 section > h2{
     color: white;
     position: absolute;
     font-size: 80px;
-    top: -4%;
+    top: 4%;
     left: 35%;
 }
 section > div{ 
@@ -79,14 +221,14 @@ color: white;
 width: 40%;
 }
 section > div:nth-of-type(1){
-    top: 20%;
-    left: 10%;
+    top: 24%;
+    left: 15%;
 }
 section > div:nth-of-type(2){
-    top: 45%;
-    left: 5%;
+    top: 53%;
+    left: 15%;
 }
 section > div:nth-of-type(3){
-    top: 70%;
-    left: 10%;
+    top: 72%;
+    left: 15%;
 }
