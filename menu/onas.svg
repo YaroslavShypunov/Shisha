@@ -4,10 +4,10 @@
 	 viewBox="0 0 127 67" style="enable-background:new 0 0 127 67;" xml:space="preserve">
 <style type="text/css">
 	.st0{fill:none;stroke:#FFFFFF;stroke-miterlimit:10;}
-	.st1{fill:#FFFFFF;}
+	.st1{fill:#FFFFFF;stroke:#FFFFFF;stroke-miterlimit:10;}
 	.st2{font-family:'MinionPro-Regular';}
 	.st3{font-size:22px;}
 </style>
 <polygon class="st0" points="108.5,57.5 8.5,57.5 19.5,8.5 119.5,8.5 "/>
-<text transform="matrix(1 0 0 1 31.1802 39.7432)" class="st1 st2 st3">O NAS</text>
+<text transform="matrix(1 0 0 1 30.1802 39.7432)" class="st1 st2 st3">SMAKI</text>
 </svg>
