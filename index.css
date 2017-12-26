@@ -11,7 +11,9 @@ body{
         background-image:url(bg-dark-4776.jpg);
 }
 /*--------------------------------------____HEADER____--------------------------------------------------*/
-
+#mobileVers{
+    display: none;
+}
 a{
     color: white;
     text-decoration: none;
@@ -348,7 +350,7 @@ body > section:nth-of-type(4) > div{
     color: white;
     left: 125px;
     top: 25%;
-}
+    }
 body > section:nth-of-type(4) > div:nth-of-type(2){
     left: 525px;   
 }
@@ -372,7 +374,26 @@ body > section:nth-of-type(4) > div:nth-of-type(6){
    
 }
 
-
+/*----------------------------------------____FOOTER____----------------------------------------------*/
+footer{
+    margin-top: 500px;
+    margin-bottom: 0;
+    background: black;
+    height: 80px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+footer > div >img{
+    width: 70px;
+    height: 70px;
+}
+footer p{
+    align-self: center;
+    color: white;
+    text-align: center;
+    
+}
 
 /*----------------------------------------____2560 x 1400____----------------------------------------------*/
 @media screen and (min-width: 2000px ){
@@ -458,8 +479,6 @@ body > section:nth-of-type(4) > div:nth-of-type(6){
 
 @media screen and (min-width: 1600px) and (max-width: 1999px){
 
-    /*----------------------------------------____FIRST SECTION____----------------------------------------------*/
-
 
         body > section:nth-of-type(1) h2{
         left: 40%;
@@ -496,6 +515,285 @@ left: 15%;
     
     }
 
-@media screen and (min-width: 576px) and (max-width: 1024px){}
 
+@media screen and (min-width: 576px) and (max-width: 1024px){
+    body > section:nth-of-type(1) > div{ 
+width: 60%;
+font-size: 15px;
+left: 10%;
+}
+    body > section:nth-of-type(1) > img{
+    width: 40%;
+    right: 1%;
+}
+    nav a:nth-of-type(1){
+        left: 20px;
+    }
+    
+    header{
+            height: 80%;
+    }
+    body > section:nth-of-type(3) > div{
 
+    }
+    body > section:nth-of-type(3) > h2{
+        left: 35%; 
+    }
+    body > section:nth-of-type(3) > div > div{
+        width:250px;
+        height: 350px;
+        left: 20px;
+
+    }
+    body > section:nth-of-type(3) > div:nth-of-type(1){
+        text-align: left;
+    }
+        body > section:nth-of-type(3) > div:nth-of-type(1) > p{
+        margin-left: 30px;
+    }
+    body > section:nth-of-type(3) > div:nth-of-type(2){
+    left: 450px;
+    text-align: right;
+}
+body > section:nth-of-type(3) > div:nth-of-type(3){
+    top: 400px;
+    left: 280px;
+    text-align: center;
+}
+            body > section:nth-of-type(3) > div:nth-of-type(2) > p{
+        margin-right: 30px;
+    }
+    body > section:nth-of-type(4) > div > div{
+        width: 250px;
+        height: 250px;
+    }
+    body > section:nth-of-type(4) > div{
+    left: 100px;
+    top: 200x;
+}
+body > section:nth-of-type(4) > div:nth-of-type(2){
+    left: 470px;   
+}
+body > section:nth-of-type(4) > div:nth-of-type(3){
+    top: 550px;
+    left: 100px;   
+}
+body > section:nth-of-type(4) > div:nth-of-type(4){
+    top: 550px;
+    left: 470px;   
+}
+body > section:nth-of-type(4) > div:nth-of-type(5){
+    top: 1000px;
+    left: 100px;   
+}
+body > section:nth-of-type(4) > div:nth-of-type(6){
+    top: 1000px;
+   left: 470px;
+   
+}
+    footer{
+        margin-top: 700px;
+    }
+}
+
+@media screen and (max-width: 575px){
+    *{
+        margin: 0;
+    }
+    
+    body{
+        font-family: Muli;
+    }
+    #firstDivMobile{
+        margin-top: 50px;
+        width: 100%;
+        height: 500px;
+        background-image: url(ava.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+    footer{
+display: none;
+    }
+    header{
+        display: none;
+    }
+    nav{
+        display: none;
+    }
+    section{
+        display: none;
+    }
+    #mobileVers{
+        display:block;
+    }
+    #mobileVers > div:nth-of-type(5) > div {
+        width: 100%;
+        background-image: url(additionally/kola.jpg);
+        background-size: cover;
+        height: 150px;
+        padding-top: 40px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+    }
+    #mobileVers > div:nth-of-type(5) > div:nth-of-type(2){
+          background-image: url(additionally/bokeh.jpg);
+
+    }
+        #mobileVers > div:nth-of-type(5) > div:nth-of-type(3){
+        background-image: url(additionally/wine.jpg);
+    }
+        #mobileVers > div:nth-of-type(5) > div:nth-of-type(4){
+      background-image: url(additionally/viski.jpg);
+    }
+        #mobileVers > div:nth-of-type(5) > div:nth-of-type(5){
+        background-image: url(additionally/fresh);
+    }
+        #mobileVers > div:nth-of-type(5) > div:nth-of-type(6){
+                    background-image: url(additionally/milkMobile.jpg);
+    }
+
+    #mobileVers > div:nth-of-type(5) > div p{
+        font-size: 30px;
+        text-align: center;
+        color: white;
+           font-family: Muli;
+    }
+    #mobileVers > div:nth-of-type(5) > div:hover{
+        height: 200px;
+    }
+
+    
+    #secondDivMobile{
+        padding-top: 40px;
+        background: #454649;
+        border-left: 10px dashed #000000;
+        display: flex;
+        justify-content:space-around;
+        color: white;
+                box-shadow: 10px 0px 50px black;
+    }
+    #secondDivMobile div img{
+        width: 100px;
+        height: 100px;
+    }
+        #secondDivMobile div p{
+        width: 100px;
+        font-size: 12px;
+        text-align: center;
+    }
+    
+    #thirdDivMobile{
+        width: 100%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    #thirdDivMobile div{
+        background-image: url(tastes/watermelon.jpg);
+        background-repeat: repeat-x;
+        background-size: cover;
+        height: 100px;
+        -webkit-transition: all 1s;
+        -o-transition: all 1s;
+        transition: all 1s;
+                box-shadow: 10px 0px 50px black;
+    }
+        #thirdDivMobile div:nth-of-type(2){
+        background-image: url(tastes/blueberries.jpg);
+    }
+            #thirdDivMobile div:nth-of-type(3){
+        background-image: url(tastes/pomegranate.jpg);
+
+    }
+    #thirdDivMobile div:hover{
+        height: 150px;
+    }
+    #mobileHeader{
+        top:0px;
+        width: 100%;
+        height: 70px;
+        background: rgba(0,0,0,0.8);
+        position: fixed;
+        display: flex;
+        justify-content: space-around;
+        
+    }
+    #mobileHeader div{
+        width: 200px;
+        padding-top: 20px;
+        padding-left: 40px;
+    }
+    #mobileHeader img{
+        margin-left: 10px;
+        width: 50px;
+        height: 70px;
+    }
+    #mobileHeader a{
+        font-size: 30px;
+    }
+    #mobileHeader img:nth-of-type(2){
+        width: 150px;
+    }
+    #callMobile{
+    position: fixed;
+    top: 50%;
+    right: 20px;
+    z-index: 9999;
+    background: #FAF433;
+    background-image: url(iconNetworks/call.svg);
+    background-size: 80% 80%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 80px;
+    height:80px;
+    border-radius: 70px;
+    box-shadow: 0px 0px 40px #FAF433;
+    -webkit-transition: all 0.5s;
+    -o-transition: all 0.5s;
+    transition: all 0.5s;
+    
+}
+#callMobile:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+    h2{
+color: white;
+text-align: center;
+margin-bottom: 30px;
+    }
+    #mobileMenu{
+        display: none;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        position: fixed;
+        z-index: 10000;
+        color: white;
+        padding: 100px 20px;
+    }
+    #mobileMenu > ul > li{
+        list-style: none;
+        font-size: 25px;
+        margin-top: 20px;
+        
+    }
+    #mobileMenu > ul > li:hover a{
+        color: rgb(250,244,51);
+        text-decoration: underline;
+    }
+    #closeMenuMobile{
+        width: 30px;
+        height: 30px;
+        margin-top: -100px;
+    }
+    #mobileHeader > div > a:hover{
+        color: rgb(250,244,51);
+    }
+    #closeMenuMobile:hover{
+        
+    }
+}

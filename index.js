@@ -1,5 +1,10 @@
-$(document).ready(function (){
-    
+
+if($(window).width <= "575"){
+    $(document).ready(function (){
+        
+    }); 
+}else if($(window).width >= "576"){ 
+    $(document).ready(function (){
     var dopVar = null;
     
 $('.a').eq(0).css('backgroundImage','url(anchor/anchorBig.svg)');
@@ -55,4 +60,5 @@ $('.a').eq(0).css('backgroundImage','url(anchor/anchorBig.svg)');
             $(this).css('backgroundImage','url(anchor/anchorBig.svg)'); 
     }
 });
-});
+        });
+}
